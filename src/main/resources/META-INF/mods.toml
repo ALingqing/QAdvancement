@@ -1,0 +1,14 @@
+modLoader="javafml"
+loaderVersion=">=55.0.0"
+license="MIT"
+[[mods]]
+modId="epochcraft"
+version="1.0.0"
+displayName="EpochCraft"
+authors="阿清"
+credits="吉祥物: player233lol, lonelyxiya"
+description="Minecraft 自定义成就 Mod"
+[[dependencies.epochcraft]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.4,1.20.5)"
