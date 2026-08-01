@@ -1,0 +1,27 @@
+{
+  "display": {
+    "title": {
+      "text": "EpochCraft 成就",
+      "color": "gold"
+    },
+    "description": {
+      "text": "欢迎来到 EpochCraft，自定义成就已启用。",
+      "color": "white"
+    },
+    "icon": {
+      "item": "minecraft:nether_star"
+    },
+    "frame": "task",
+    "announce_to_chat": true,
+    "show_toast": true,
+    "background": "minecraft:textures/gui/advancements/backgrounds/end.png"
+  },
+  "criteria": {
+    "load_epochcraft": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "rewards": {
+    "experience": 100
+  }
+}
