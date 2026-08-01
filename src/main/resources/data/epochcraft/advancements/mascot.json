@@ -1,0 +1,24 @@
+{
+  "parent": "epochcraft:root",
+  "display": {
+    "title": {
+      "text": "吉祥物同伴",
+      "color": "light_purple"
+    },
+    "description": {
+      "text": "认识 EpochCraft 的吉祥物 player233lol 与 lonelyxiya。",
+      "color": "white"
+    },
+    "icon": {
+      "item": "minecraft:player_head"
+    },
+    "frame": "task",
+    "announce_to_chat": false,
+    "show_toast": true
+  },
+  "criteria": {
+    "see_mascot": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}
