@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "qadvancement",
+  "version": "${mod_version}",
+  "name": "QAdvancement",
+  "description": "服务端和客户端共用的自定义成就系统，支持 GUI 和 JSON 配置。",
+  "authors": ["阿清"],
+  "contact": {
+    "homepage": "https://example.com",
+    "sources": "https://example.com"
+  },
+  "license": "MIT",
+  "icon": "assets/qadvancement/icon.png",
+  "environment": "universal",
+  "entrypoints": {
+    "main": ["icu.epochcraft.EpochCraftMod"],
+    "client": ["icu.epochcraft.client.QAdvancementClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "fabric": "*",
+    "minecraft": "1.20.1"
+  }
+}
