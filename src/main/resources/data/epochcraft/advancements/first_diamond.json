@@ -1,0 +1,44 @@
+{
+  "parent": "epochcraft:root",
+  "display": {
+    "title": {
+      "text": "钻石探索者",
+      "color": "aqua"
+    },
+    "description": {
+      "text": "首次获得钻石或兼容的宝石即可解锁。",
+      "color": "white"
+    },
+    "icon": {
+      "item": "minecraft:diamond"
+    },
+    "frame": "goal",
+    "announce_to_chat": true,
+    "show_toast": true
+  },
+  "criteria": {
+    "get_diamond": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:diamond"
+          }
+        ]
+      }
+    },
+    "get_mod_diamond": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:gems/diamond"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["get_diamond", "get_mod_diamond"]
+  ]
+}
