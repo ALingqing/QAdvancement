@@ -1,0 +1,11 @@
+{
+  "title": "钻石探索者",
+  "description": "获得任意钻石物品后解锁。",
+  "trigger": "inventory_changed",
+  "trigger_value": "minecraft:diamond",
+  "rewards": [
+    { "type": "experience", "value": "50" },
+    { "type": "broadcast", "value": "&6玩家 %player% 获得了钻石探索者成就！" },
+    { "type": "item", "value": "minecraft:diamond 2" }
+  ]
+}
